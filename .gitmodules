@@ -1,3 +1,4 @@
 [submodule "olcPixelGameEngine"]
 	path = olcPixelGameEngine
 	url = git@github.com:OneLoneCoder/olcPixelGameEngine.git
+	ignore = dirty

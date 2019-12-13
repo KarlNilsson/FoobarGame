@@ -3,6 +3,9 @@
 
 */.vs/*
 *.vcxproj.user
+*/Debug/*
+
+olcPixelGameEngine/
 
 # Compiled Object files
 *.slo
