@@ -142,7 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Foo.cpp" />
     <ClCompile Include="FoobarGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Foo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
