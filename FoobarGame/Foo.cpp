@@ -1,12 +1,13 @@
 #include "Foo.h"
 
-Foo::Foo(float x, float y, int size, olc::Pixel frameColor, olc::Pixel fillColor)
+Foo::Foo(float x, float y, int size, int border, olc::Pixel frameColor, olc::Pixel fillColor)
 {
 	this->x = x;
 	this->y = y;
 	this->size = size;
-	this->frameColor = frameColor;
+	this->borderColor = frameColor;
 	this->fillColor = fillColor;
+	this->border = border;
 }
 
 void Foo::Move(float x, float y)
@@ -15,9 +16,9 @@ void Foo::Move(float x, float y)
 	this->y += y;
 }
 
-void Foo::ChangeFrameColor(olc::Pixel newFrameColor)
+void Foo::ChangeBorderColor(olc::Pixel newBorderColor)
 {
-	frameColor = newFrameColor;
+	borderColor = newBorderColor;
 }
 
 void Foo::ChangeFillColor(olc::Pixel newFillColor)
