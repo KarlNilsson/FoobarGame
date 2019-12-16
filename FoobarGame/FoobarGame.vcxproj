@@ -144,9 +144,11 @@
   <ItemGroup>
     <ClCompile Include="Foo.cpp" />
     <ClCompile Include="FoobarGame.cpp" />
+    <ClCompile Include="HUD.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Foo.h" />
+    <ClInclude Include="HUD.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
